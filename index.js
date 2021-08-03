@@ -28,7 +28,8 @@ server.use(bodyParser.urlencoded({ extended: true }));
 server.use(passport.initialize());
 
 const uri =
-	"mongodb+srv://PatienceA:k4Rjyhna7rWTUiS@cluster0.xpcwq.mongodb.net/bodaboda?retryWrites=true&w=majority";
+	"mongodb+srv://akapesh:root@cluster0.u8gzr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+	// "mongodb+srv://PatienceA:k4Rjyhna7rWTUiS@cluster0.xpcwq.mongodb.net/bodaboda?retryWrites=true&w=majority";
 mongoose
 	.connect(uri, {
 		useNewUrlParser: true,
